@@ -55,7 +55,7 @@ async function main() {
 
 main();
 
-// Function to get data from the specified URL
+//FUNCION PARA OBTENER LOS DATOS Y LLAMARLA PARA METER LA URL COMO PARAMETRO.
 async function fetchData(url) {
   try {
     const response = await fetch(url);
@@ -70,7 +70,8 @@ async function fetchData(url) {
   }
 }
 
-// Function to get all IDs and titles
+
+// ----------------------------------------------CLASE PARA OBTENER TODOS LOS IDS Y TITLES--------------------------------------------------------------------
 async function IDsNTitles() {
   const datos = await fetchData('https://jsonplaceholder.typicode.com/todos');
 
@@ -80,8 +81,11 @@ async function IDsNTitles() {
     });
   }
 }
+// ----------------------------------------------CIERRE DE CLASE PARA OBTENER TODOS LOS IDS Y TITLES--------------------------------------------------------------------
 
-// Function to get unresolved issues
+
+
+// ----------------------------------------------CLASE PARA OBTENER TODOS LOS IDS Y TITLES SIN RESOLVER--------------------------------------------------------------------
 async function unresolved() {
   const datos = await fetchData('https://jsonplaceholder.typicode.com/todos');
   const datosFiltrados = datos.filter(item => !item.completed);
@@ -92,8 +96,10 @@ async function unresolved() {
     });
   }
 }
+// ----------------------------------------------CIERRE DE CLASE PARA OBTENER TODOS LOS IDS Y TITLES SIN RESOLVER--------------------------------------------------------------------
 
-// Function to get resolved issues
+
+// ----------------------------------------------CLASE PARA OBTENER TODOS LOS IDS Y TITLES RESUELTOS--------------------------------------------------------------------
 async function resolved() {
   const datos = await fetchData('https://jsonplaceholder.typicode.com/todos');
   const datosFiltrados = datos.filter(item => item.completed);
@@ -104,8 +110,11 @@ async function resolved() {
     });
   }
 }
+// ----------------------------------------------CIERRE DE CLASE PARA OBTENER TODOS LOS IDS Y TITLES RESUELTOS--------------------------------------------------------------------
 
-// Function to get all users and their problem numbers
+
+
+// ----------------------------------------------CLASE PARA OBTENER TODOS LOS IDS Y Usuarios--------------------------------------------------------------------
 async function usersNids() {
   const datos = await fetchData('https://jsonplaceholder.typicode.com/todos');
 
@@ -115,8 +124,9 @@ async function usersNids() {
     });
   }
 }
+// ----------------------------------------------CIERRE DE CLASE PARA OBTENER TODOS LOS IDS Y Usuarios--------------------------------------------------------------------
 
-// Function to get users who have resolved issues
+// ----------------------------------------------CLASE PARA OBTENER TODOS LOS IDS Y Usuarios que han resolvido--------------------------------------------------------------------
 async function userResolved() {
   const datos = await fetchData('https://jsonplaceholder.typicode.com/todos');
   const datosFiltrados = datos.filter(item => item.completed);
@@ -128,7 +138,9 @@ async function userResolved() {
   }
 }
 
-// Function to get users who have unresolved issues
+// ----------------------------------------------CIERRE DE CLASE PARA OBTENER TODOS LOS IDS Y TITLES RESUELTOS--------------------------------------------------------------------
+
+// ----------------------------------------------CLASE PARA OBTENER TODOS LOS IDS Y USUARIOS QUE NO HAN RESUELTO--------------------------------------------------------------------
 async function userUnresolved() {
   const datos = await fetchData('https://jsonplaceholder.typicode.com/todos');
   const datosFiltrados = datos.filter(item => !item.completed);
@@ -139,3 +151,5 @@ async function userUnresolved() {
     });
   }
 }
+
+// ----------------------------------------------CIERRE DE CLASE PARA OBTENER TODOS LOS IDS Y TITLES RESUELTOS--------------------------------------------------------------------
