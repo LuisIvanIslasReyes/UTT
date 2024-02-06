@@ -22,7 +22,7 @@ async function main() {
                 await unresolved();
                 break;
             case 3:
-                await resolved();
+                await resolved(); 
                 break;
             case 4:
                 await usersNids();
