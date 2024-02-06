@@ -1,0 +1,512 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{makeidx}
+\usepackage{float} % Necesario para usar la opción [H]
+\usepackage{cancel}
+
+
+
+\title{Propuesta de proyecto.}
+\author{Integrantes: \\
+Bautista Ordoñez Brian Angel. \\
+Garcia Valenzuela Ernesto. \\
+Islas Reyes Luis Ivan. \\
+Ruelas Gónzalez Carlos Alexis. \\
+Orrantia González German Sisac. \\ \\
+Líder de equipo: \\
+Bautista Ordoñez Brian Angel.}
+
+\date{February 2024} 
+\makeindex
+\begin{document}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{utt.png}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\maketitle
+
+
+  \index{1 Introducción } 
+  \index{2 Descripción del Proyecto} 
+  \index{3 Nuevas Implementaciones}
+  \index{4 Foto del cronograma}
+  \index{5 Requisitos para la página de nóminas.}
+
+
+\renewcommand{\indexname}{Índice} % Cambiar el nombre del índice
+\printindex
+
+\newpage
+\section{Introducción.}
+En este archivo se podrá encontrar la descripción del proyecto, así como el problema que viene a resolver, acompañado de las nuevas tecnologías que se utilizaran para actualizar este, tomando en cuenta los requerimientos establecidos anteriormente y siguiendo el cronograma de actividades establecido para la realización del proyecto. \\
+
+\section{Descripción del proyecto.}
+TFT es una aplicación web dedicada a la gestión automatizada del cálculo de nóminas con enfoque a pequeñas y medianas empresas. TFT permite a la empresa crear perfiles (tipos de empleado), crear prestaciones, otorgar prestaciones, registrar la entrada y salida del personal, personalizar los sueldos, añadir a sus empleados, modificar la información, etc. todo esto para generar de manera automatizada la nómina para sus empleados a quienes la aplicación les permite visualizar su nómina más reciente, un historial de nóminas y ciertas estadísticas. El modelo de negocios para TFT es un modelo de suscripción donde la empresa puede escoger entre 2 paquetes (mensual/anual) según sus necesidades.
+La problemática que viene a solucionar TFT son los altos costes y difícil acceso que tienen las pequeñas y medianas empresas para acceder a tecnologías que facilitan la gestión de sus nóminas. Con TFT estas empresas podrán optimizar esta área de su empresa de una manera fácil, eficiente y económica.
+
+\section{Nuevas Implementaciones.}
+Para la materia de IoT:
+\begin{itemize}
+    \item Se planea hacer un scanner de reconocimiento de huella digital.
+\end{itemize}
+\begin{itemize}
+    \item Se planea hacer un scanner de Código QR para el inicio de sesión.
+\end{itemize}
+
+Para la materia de Aplicaciones web:
+\begin{itemize}
+    \item Se planea la implementación de Apis para el uso de la página.
+\end{itemize}
+
+Y por último para la materia de Diseño de apps:
+\begin{itemize}
+    \item Se planea hacer una aplicación móvil.
+\end{itemize}
+
+\newpage
+
+\section{Foto del cronograma.}
+   \begin{figure}[H] % La opción [H] fuerza la posición
+    \centering
+    \includegraphics[width=1.2\linewidth]{si.jpeg}
+    \label{fig:enter-label}
+\end{figure}
+
+   
+\newpage
+\section{Requisitos para la página.}
+%ESTE ES LA TABLA DEL REQUISITO 1
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN1 \\
+\hline
+Nombre de requisito & Contrato del servicio \\
+\hline
+Tipo & \cancel{Requisito} | Restricción \\
+\hline
+Fuente del requisito & Página encargada de mostrar los diferentes paquetes del servicio \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 2
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN2 \\
+\hline
+Nombre de requisito & Portal de pagos. \\
+\hline
+Tipo & \cancel{Requisito} | Restricción \\
+\hline
+Fuente del requisito & \shortstack {Apartado encargado de la recopilación de la información para \\ completar el pago de servicio (simulación).} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 3
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN3 \\
+\hline
+Nombre de requisito & Registro de cuenta. \\
+\hline
+Tipo & \cancel{Requisito} | Restricción \\
+\hline
+Fuente del requisito & Página para registrar cuenta empresarial. \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 4
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN4 \\
+\hline
+Nombre de requisito & Inicio de sesión empresarial. \\
+\hline
+Tipo & \cancel{Requisito} | Restricción \\
+\hline
+Fuente del requisito & Apartado para el inicio de sesión empresarial. \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 5
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN5 \\
+\hline
+Nombre de requisito & Inicio de sesión de administradores. \\
+\hline
+Tipo & \cancel{Requisito} | Restricción \\
+\hline
+Fuente del requisito & Apartado para el inicio de sesión de administradores dueños de la página web. \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 6
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN6 \\
+\hline
+Nombre de requisito & Inicio de sesión de empleados. \\
+\hline
+Tipo & \cancel{Requisito} | Restricción \\
+\hline
+Fuente del requisito & Apartado para el inicio de sesión empleado(Los registra la empresa). \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 7
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN7 \\
+\hline
+Nombre de requisito & Cálculo de ingresos.\\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \shortstack{Programación de la lógica necesaria para el cálculo \\
+de salario basado en las necesidades de la empresa deberá ser la suma de: \\
+- Sueldo Ordinario. \\ -Séptimo día. \\ -Prima domonical. \\ -Subsidio para el empleo \\ -Prestaciones.}
+   \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 2 \\
+\hline
+\end{tabular}
+\end{center}
+
+
+%ESTE ES LA TABLA DEL REQUISITO 8
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN8 \\
+\hline
+Nombre de requisito & Cálculo de deducciones.\\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \shortstack{Programación de la lógica necesaria para el cálculo de las deducciones salariales,\\ deberá ser la suma de: \\
+- ISR. \\ -IMSS. \\ -Prestaciones.}
+   \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 2 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 9 
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN9} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Creación y edición de perfiles.} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \parbox{10cm}{En este apartado la empresa será capaz de crear un perfil dedicado a un tipo de empleado así mismo podrá establecer el pago de este tipo de empleados y sus prestaciones.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional\\
+\hline
+Nivel de dificultad & \parbox{10cm}{3} \\
+\hline
+\end{tabular}
+\end{center}
+
+
+%ESTE ES LA TABLA DEL REQUISITO 10 
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN10} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Registro de empleados} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción  \\
+\hline
+Fuente del requisito & \parbox{10cm}{En este apartado la empresa será capaz de registrar a todos sus empleados y asignarlos a un perfil anteriormente creado por medio de un correo que la empresa se encarga de conseguir.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & \parbox{10cm}{1} \\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+%ESTE ES LA TABLA DEL REQUISITO 11
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN11 \\
+\hline
+Nombre de requisito & Estadisticas de la empresa.\\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \shortstack{En este apartado se encontrarán las siguientes estadísticas de la empresa: \\
+- Costo total de Nómina. \\ -Distribución de costes de nómina.}
+   \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 2 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 12 
+\begin{adjustwidth}{-3cm}{-3cm}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN12} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Historial de pagos y deducciones} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción  \\
+\hline
+Fuente del requisito & \parbox{10cm}{Registros detallados de los pagos realizados a cada empleado, incluyendo detalles de salarios, bonificaciones y deducciones.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & \parbox{10cm}{3} \\
+\hline
+\end{tabular}
+\end{center}
+\end{adjustwidth}
+
+
+%ESTE ES LA TABLA DEL REQUISITO 13 
+\begin{adjustwidth}{-3cm}{-3cm}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN13} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Configuración de cuenta} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \parbox{10cm}{En este apartado la empresa podrá modificar la información de su empresa.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & \parbox{10cm}{1} \\
+\hline
+\end{tabular}
+\end{center}
+\end{adjustwidth}
+
+%ESTE ES LA TABLA DEL REQUISITO 14 
+\begin{adjustwidth}{-3cm}{-3cm}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN14} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Nómina más reciente.} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción\\
+\hline
+Fuente del requisito & \parbox{10cm}{En este apartado podrá ver el recibo de su nómina más reciente.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & \parbox{10cm}{1} \\
+\hline
+\end{tabular}
+\end{center}
+\end{adjustwidth}
+
+%ESTE ES LA TABLA DEL REQUISITO 15
+\begin{adjustwidth}{-3cm}{-3cm}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN15} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Historial de nóminas.} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \parbox{10cm}{En este apartado podrá acceder a todos los recibos de nóminas que ha recibido.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & \parbox{10cm}{3} \\
+\hline
+\end{tabular}
+\end{center}
+\end{adjustwidth}
+
+%ESTE ES LA TABLA DEL REQUISITO 16
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & RN16 \\
+\hline
+Nombre de requisito & Estadísticas de ingresos.\\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \shortstack{En este apartado el empleado podrá ver las siguientes \\ estadísticas de sus ingresos: \\
+- Ingreso anual. \\ - Ingresos exentos. \\ - Ingresos acumulables. \\ -Subsidio para el empleo \\ - Impuesto retenido.}
+   \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional \\
+\hline
+Nivel de dificultad & 2 \\
+\hline
+\end{tabular}
+\end{center}
+
+%ESTE ES LA TABLA DEL REQUISITO 17
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN17} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Información de empleado} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción  \\
+\hline
+Fuente del requisito & \parbox{10cm}{En este apartado podrá ver su información.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional\\
+\hline
+Nivel de dificultad & \parbox{10cm}{1} \\
+\hline
+\end{tabular}
+\end{center}
+
+
+%ESTE ES LA TABLA DEL REQUISITO 18 
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN18} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Generación de recibo de pago de nómina.} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción \\
+\hline
+Fuente del requisito & \parbox{10cm}{En este apartado el empleado podrá generar un recibo de sus pagos de nómina.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional\\
+\hline
+Nivel de dificultad & \parbox{10cm}{1} \\
+\hline
+\end{tabular}
+\end{center}
+
+
+%ESTE ES LA TABLA DEL REQUISITO 19 
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Número de requisito & \parbox{10cm}{RN19} \\
+\hline
+Nombre de requisito & \parbox{10cm}{Gestión de empleados} \\
+\hline
+Tipo & \cancel{Requisito}  Restricción  \\
+\hline
+Fuente del requisito & \parbox{10cm}{Apartado dedicado al manejo de empleados, en este apartado se podrá modificar la información de este mismo, así como darlo de baja.} \\
+\hline
+Prioridad del requisito & \cancel{Alta/Esencial} \\
+                       & Media/Deseado \\
+                       & Baja/Opcional\\
+\hline
+Nivel de dificultad & \parbox{10cm}{2} \\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+\end{document}
