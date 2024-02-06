@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Fundamentals of Mobile Development}
+\author{Islas Luis}
+\date{January 2024}
+
+\begin{document}
+
+\maketitle 
+\paragraph{\fontsize{14}{17}\selectfont To understand the fundamentals of mobile development we must understand, what is mobile app development?}
+
+
+\par Mobile app development involves creating software for devices such as smartphones, tablets, and digital assistants, especially for operating systems such as Android and iOS. These apps can be pre-installed, downloaded from app stores, or accessible through mobile web browsers. A variety of programming and markup languages are used, including Java, Swift, C, and HTML5.
+
+This field is experiencing rapid growth, encompassing sectors such as retail, telecommunications, e-commerce, insurance, healthcare, and government. Organizations seek to meet users' expectations in terms of ease and speed of transactions, as well as access to information. Mobile apps have become essential for internet connection, being the primary choice for individuals and businesses.
+
+Despite its importance, mobile app development can be challenging. Hurdles such as choosing platforms and adapting to device constraints must be overcome. However, by following guidelines and best practices, organizations can optimize their application development path to meet the demands of customers, partners, and employees, ensuring their relevance and continued success.
+
+\end{document}
